@@ -1,0 +1,20 @@
+# Custom Language File for Launcher Customizer
+
+[ejs.app]
+title = "Battly Launcher"
+
+[ejs.landing]
+mediaGitHubURL = "https://www.razorbot.net"
+mediaXURL = "#"
+mediaInstagramURL = "#"
+mediaYouTubeURL = "#"
+mediaDiscordURL = "https://discord.razorbot.net"
+
+[ejs.settings]
+sourceGithubLink = "https://discord.razorbot.net"
+supportLink = "https://discord.razorbot.net"
+
+[ejs.welcome]
+welcomeHeader = "BENVENUTO SU BATTLY LAUNCHER"
+welcomeDescription = "Clicca su CONTINUA per andare avanti."
+welcomeDescCTA = "Copyright © 2026 Battly Studios"
