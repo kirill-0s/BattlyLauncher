@@ -991,11 +991,11 @@ ipcMain.handle("update-app", () => {
       .catch((error) => resolve({ error: true, message: error }));
   });
 });
-const pkgVersion = async () => ({ version: "1.0.0", buildVersion: 1001 });
+const pkgVersion = async () => ({ version: "1.0.1", buildVersion: 1001 });
 ipcMain.handle("update-new-app", async () => {
   console.log(await pkgVersion());
   return new Promise(async (resolve, reject) => {
-    fetch("https://api.battlylauncher.com/v3/launcher/config-launcher/config.json")
+    fetch("http://45.138.201.118:25540/launcher/config-launcher/config.json")
       .then(async (res) => {
         let data = await res.json();
         let version = data.battly.release;
